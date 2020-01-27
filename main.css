@@ -211,6 +211,8 @@ ________________________________*/
 .works__item {
     width: 25%;
     height: 350px;
+    border-right: 1px solid#ffffff  ;
+    border-bottom: 1px solid#ffffff ;
     position: relative;
     overflow: hidden;
 }
