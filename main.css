@@ -282,7 +282,7 @@ ________________________________*/
 .team__item {
     width: 25%;
     padding: 0 15px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
 .team__photo {
@@ -326,7 +326,15 @@ ________________________________*/
     height: 40px;
     border: 1px solid #e8ecee;
     margin-right: 4px;
+
+    transition: background 0.4s linear;
+    
 }
+
+.social__item:hover{
+    background-color: #9b2e2e;
+}
+
 
 /* reviews */
 
