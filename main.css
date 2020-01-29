@@ -270,7 +270,7 @@ ________________________________*/
 
 
 .team {
-    margin: 100px 0 70px;
+    margin: 100px 0 0;
 }
 
 .team__inner {
@@ -318,6 +318,10 @@ ________________________________*/
     display: flex;
 }
 
+.social--footer{
+    justify-content: center;
+}
+
 .social__item {
     display: flex;
     justify-content: center;
@@ -332,7 +336,25 @@ ________________________________*/
 }
 
 .social__item:hover{
-    background-color: #9b2e2e;
+    background-color: #e84545;
+}
+
+.social--footer .social__item {
+border-width: 2px ;
+border-color: #ffffff;
+border-radius: 2px;
+}
+
+.social__icon {
+    display: block;
+    height: 18px;
+
+    fill:#c6cacc
+
+}
+
+.social--footer .social__icon{
+    fill: #ffffff;
 }
 
 
@@ -423,6 +445,7 @@ ________________________________*/
 }
 
 .footer__block {
+    padding: 0 15px;
     width: 33.3333%;
     text-align: center;
 }
@@ -440,4 +463,14 @@ ________________________________*/
     line-height: 1.5;
     font-style: normal;
     color: rgba(255, 255, 255, 0.5)
+}
+
+.footer__text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__copyright{
+ background-color: #313454;   
 }
