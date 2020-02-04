@@ -223,11 +223,11 @@ ________________________________*/
 }
 
 .works__img {
- display: block;
- width: 100%;
- height: 100%;
- object-fit: cover;
- object-position:center ;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .works__content {
@@ -317,7 +317,7 @@ ________________________________*/
     display: flex;
 }
 
-.social--footer{
+.social--footer {
     justify-content: center;
 }
 
@@ -331,28 +331,27 @@ ________________________________*/
     margin-right: 4px;
 
     transition: background 0.4s linear;
-    
+
 }
 
-.social__item:hover{
+.social__item:hover {
     background-color: #e84545;
 }
 
 .social--footer .social__item {
-border-width: 2px ;
-border-color: #ffffff;
-border-radius: 2px;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-radius: 2px;
 }
 
 .social__icon {
     display: block;
     height: 18px;
 
-    fill:#c6cacc
-
+    fill: #c6cacc
 }
 
-.social--footer .social__icon{
+.social--footer .social__icon {
     fill: #ffffff;
 }
 
@@ -434,11 +433,11 @@ border-radius: 2px;
 
 /* footer */
 .footer {
-    
+
     background-color: #3e3e64;
 }
 
-.footer__inner{
+.footer__inner {
     display: flex;
     flex-wrap: wrap;
     padding: 70px 0;
@@ -458,7 +457,7 @@ border-radius: 2px;
     color: #ffffff;
 }
 
-.footer__address{
+.footer__address {
     font-size: 14px;
     line-height: 1.5;
     font-style: normal;
@@ -471,28 +470,32 @@ border-radius: 2px;
     color: rgba(255, 255, 255, 0.5);
 }
 
-.footer__copyright{
-padding: 20px 0;
+.footer__copyright {
+    padding: 20px 0;
 
- background-color: #313454;   
+    background-color: #313454;
 }
 
-.copyright{
+.copyright {
     padding: 20px 0;
-     background-color: #313454;   
-    }
+    background-color: #313454;
+}
 
-    .copyright__text{
-        text-align: center;
-        font-size: 14px;
-        line-height: 1.5;
-        color: #808080;
-    }
+.copyright__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #808080;
+}
 
-    .copyright__text span{
-       color: #ffffff; 
-    }
+.copyright__text span {
+    color: #ffffff;
+}
 
-    .copyright__icon{
-        height: 10px;
-    }
+.copyright__icon {
+    height: 10px;
+}
+
+
+
+
